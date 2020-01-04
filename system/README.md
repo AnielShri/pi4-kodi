@@ -2,4 +2,4 @@
 
 System configuration files and notes are stored here
 
-* [Pre-Boot](preboot.md)
+* [Pre-Boot](pre-boot.md)
