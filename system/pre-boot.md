@@ -5,7 +5,8 @@ Nessasary actions to perform before booting the system.
 These configuration files are based on [***Raspbian Buster Lite***](https://www.raspberrypi.org/downloads/raspbian/) (release date 2019-09-26). 
 
 ## SSH
-Place a file named ***ssh*** in the ***/boot*** partition of the SD-Card [[1](https://www.raspberrypi.org/documentation/remote-access/ssh/)]
+Full instructions [here](https://www.raspberrypi.org/documentation/remote-access/ssh/).  
+Place a file named ***ssh*** in the ***/boot*** partition of the SD-Card
 
 ## Bluetooth
 Full instructions [here](https://scribles.net/disabling-bluetooth-on-raspberry-pi/).  
