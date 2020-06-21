@@ -4,4 +4,7 @@ I'm using a Raspberry Pi 4 (4GB) as a compact media server. It is connected to a
 
 This repository is essentially where I will store configuration files and notes to recreate the media server.
 
-Check out the sub-folders for more information.
+To create a clean setup, follow these guides:
+1. [Pre-Boot](pre-boot.md)
+2. [First Run](first-run.md)
+3. [Attach HDD](hdd.md)
