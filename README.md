@@ -8,3 +8,5 @@ To create a clean setup, follow these guides:
 1. [Pre-Boot](pre-boot.md)
 2. [First Run](first-run.md)
 3. [Attach HDD](hdd.md)
+
+Once the hardware is configured, checkout the [Software](software/README.md) secion
