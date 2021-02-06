@@ -25,6 +25,19 @@ sudo mount /dev/sdXN /media/hdd
 * where `X` is the device letter in the `lsblk` output
 * and `N` is the mount partition
 
+## Test drive mount
+Doing a `ls` should dislplay a list of items currently on the drive
+
+```shell
+ls -l /media/hdd
+```
+
+An alternative is to use `lsblk` again to check if a `drive` <-> `mountpoint`
+
+```shell
+lsblk
+```
+
 eg
 
 ```shell
@@ -47,7 +60,7 @@ mmcblk0     179:0    0   7.4G  0 disk
 └─mmcblk0p2 179:2    0   7.2G  0 part /
 ```
 
-## Automatically mount HDD
+# Automatically mount HDD
 Once it is verified that the HDD can be mounted and accessed, it's time to automate the mounting, so that it is available after boot.
 
 1. First get the UUID of the HDD
@@ -67,6 +80,7 @@ sudo nano /etc/fstab
 ```bash
 UUID=2b566964-1880-4097-931a-4bf32f45ed7e       /media/hdd      ext4    defaults,noatime,nodiratime,nofail     0	0
 ```
+4. reboot and test with an `ls /media/hdd` or `lsblk` if the drive is automatically mounted 
 
 ---
 ### References

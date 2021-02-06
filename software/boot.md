@@ -11,6 +11,11 @@ sudo systemctl disable x.service
 Where `x` is the service name.
 
 
+## Optimisations
+
+### DHCP client
+
+
 
 ---
 ### References
